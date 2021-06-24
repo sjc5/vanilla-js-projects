@@ -1,0 +1,41 @@
+body, textarea, .submit {
+  font-family: monospace;
+  margin: 0 auto;
+  width: auto;
+  max-width: 400px;
+}
+textarea {
+  padding: 10px;
+  margin-bottom: 0.7rem;
+  box-sizing: border-box;
+}
+body {
+  margin-top: 2rem;
+  background-color: #cba;
+  padding: 0 1rem;
+}
+h1 {
+  text-align: center;
+}
+h1 a {
+  text-decoration: none;
+  color: #000;
+}
+textarea {
+  text-align: center;
+}
+textarea, p, .submit {
+  font-size: 1.1rem;
+  text-align: center;
+  width: 100%;
+}
+.submit {
+  padding: 0.5rem;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+.logo:hover {
+  cursor: pointer;
+}

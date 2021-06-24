@@ -4,10 +4,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Palindrome Tester</title>
-  <script src="bundle.js" charset="utf-8"></script>
+  <title>🔥 palindrome tester</title>
+  <script src="bundle.js" charset="utf-8" defer></script>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Palindrome Tester</h1>
+  <h1 class="logo" onclick="reset()">🔥 palindrome tester 🔥</h1>
+
+  <form id="palindromeTester">
+    <textarea id="phrase" name="phrase" placeholder="write something here"></textarea>
+    <button class="submit" type="submit">is it a palindrome?</button>
+  </form>
+
+  <div id="palindromeResult"></div>
+  <script>
+  function reset() {
+    palindromeResult.innerHTML = (``);
+    phrase.value = ('');
+  }
+  </script>
 </body>
 </html>
