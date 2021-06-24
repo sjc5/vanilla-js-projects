@@ -1,3 +1,5 @@
 let Phrase = require("activefog-palindrome");
 
-alert(new Phrase("Madam, I'm Adam.").palindrome());
+let string = prompt("Please enter a string for palindrome testing:");
+
+alert(new Phrase(string).palindrome());
